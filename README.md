@@ -13,4 +13,4 @@ Now we need to set up postgres database. We can get it from the Docker Hub. But 
 
 then, we create the database.
 
-`docker run -p 5432:5432 --name postgres -e POSTGRES_PASSWORD=admin -d --volumes-from PostgresData postgres`
+`docker run -p 5432:5432 --name postgres -e POSTGRES_PASSWORD=minerva -d --volumes-from PostgresData postgres`
